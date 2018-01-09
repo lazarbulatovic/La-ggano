@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-weight: 300;
+    width: 100%;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    font-family: 'Niconne', cursive;
+
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.row2 {
+    display: block;
+    width: 100%;
+    height: 600px;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 180px;
+    color: white;
+    font-family: 'Niconne', cursive;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 20px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    margin-left: 25%;
+}
+
+h2 {
+    display: block;
+    font-size: 55px;
+    color: black;
+    font-family: 'Niconne', cursive;
+    margin-left: 800px;
+    margin-top: 50px;
+}
+
+
+
+header {
+    background-image: url(img/slika1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    border: 5px solid black;
+    border-top: none;
+    border-bottom: 30px solid black;
+    border-left: none;
+    border-right: none;
+    border-image: url(img/sara5.jpg) 40 round;
+}
+
+.active {
+    color: #fff !important;
+    text-decoration: underline !important;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 150%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+    position: relative;
+    left: -20%;
+}
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: -50px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 260%;
+    color: #fff;
+}
+
+.hero-text-box {
+    position: relative;
+    width: 1140px;
+    top: 50%;
+    left: 25%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    text-align: justify;
+    padding-top: 30px;
+    font-style: italic;
+    color: #2a2a2a;
+    font-size: 50px;
+
+}
+
+.row4 {
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 820px;
+    border: 5px solid black;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/background.jpg);
+    border-top: 30px solid black;
+    border-bottom: 30px solid black;
+    border-left: none;
+    border-right: none;
+    border-image: url(img/sara5.jpg) 50 round;
+}
+
+.section-meals {
+    padding: 0;
+}
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%;
+    height: 350px;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+    border: 2px solid black;
+    margin-top: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.meal-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: 350px;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/*---------------------------*/
+
+/********GALERY**************/
+
+.gallery {
+    margin: 10px 560px;
+    width: 50%;
+}
+
+.gallery img {
+    width: 140px;
+    padding: 0px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.gallery img:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.row3 {
+    position: relative;
+    display: block;
+    top: 150px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 610px;
+    border: 5px solid black;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top: 30px solid black;
+    border-bottom: 30px solid black;
+    border-left: none;
+    border-right: none;
+    border-image: url(img/sara5.jpg) 50 round;
+    margin-bottom: 200px;
+}
+
+/***************************************/
+
+.google-map {
+    position: absolute;
+    top: 20px;
+    width: 60%;
+    height: 680px;
+    margin-left: 10px;
+    margin-top: 0px;
+    border: 5px solid white;
+}
+
+.image-map {
+    display: block;
+    position: relative;
+    top: 0px;
+    right: -1155px;
+    width: 700px;
+    height: 680px;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 5px solid white;
+    background-image: url(img/lagano6.jpg);
+    border: 5px solid white;
+}
+
+.row5 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 940px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+    background-image: url(img/background.jpg);
+    border-top: 30px solid black;
+    border-left: none;
+    border-right: none;
+    border-image: url(img/sara5.jpg) 50 round;
+}
+
+.row7 {
+    display: block;
+    width: 100%;
+    height: 600px;
+    margin-top: 0;
+}
+
+.long-copy-2 {
+    position: absolute;
+    display: block;
+    line-height: 145%;
+    width: 25%;
+    right: 20%;
+    margin-right: -110px;
+    margin-top: 5%;
+    padding-top: 20px;
+    font-style: italic;
+    text-align: justify;
+    color: #2a2a2a;
+    font-size: 35px;
+}
+
+h3 {
+    position: relative;
+    display: block;
+    font-size: 55px;
+    color: black;
+    font-family: 'Niconne', cursive;
+    margin-top: 30px;
+    margin-bottom: 0;
+    margin-right: 20%;
+    width: 300px;
+    height: 30px;
+    float: right;
+}
+
+.koktel-img {
+    height: 400px;
+    width: 600px;
+    float: left;
+    margin-left: 15%;
+    margin-top: 5%;
+    border: 5px solid black;
+}
+
+.row6 {
+    width: 100%;
+    height: 170px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo2 {
+    display: block;
+    height: 160px;
+    width: 150px;
+    float: left;
+    margin-top: 0;
+    position: relative;
+    left: 48%;
+
+}
+
+.logo2 img {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+h4 {
+    margin: 0;
+    font-family: 'Niconne', cursive;
+    font-size: 50px;
+    margin-top: 0;
+    padding-top: 0;
+    color: black;
+}
+
+.footer {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    bottom: 0px;
+}
+
+.footer-text {
+    display: block;
+    width: 200px;
+    height: 150px;
+    margin-top: 0;
+    margin-left: 30%;
+    padding-left: 30px;
+    padding-top: 5px;
+    text-align: left;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    font-family: 'Niconne', cursive;
+}
+
+.footer-main-text {
+    display: block;
+    padding-top: 10px;
+    font-family: none;
+    width: 200px;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+    margin-right: 25%;
+    margin-top: -70px;
+    z-index: 9999;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 160%;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+    color: black;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-social-twitter:hover {
+    color: #00aced;
+}
+
+.ion-social-googleplus:hover {
+    color: #dd4b39;
+}
+
+.ion-social-instagram:hover {
+    color: #517fa4;
+}
+.ion-close-round {
+    float: right;
+    margin-top: -200px;
+    cursor: pointer;
+}
