@@ -254,7 +254,7 @@
     .image-map {
         top: 0px;
         right: -53%;
-        width: 330px;
+        width: 430px;
         height: 300px;
     }
     .row5 {
@@ -529,7 +529,7 @@
         margin-top: 10%;
     }
     .row5 {
-        height: 120%;
+        height: 170%;
         margin-top: -60px;
     }
     .footer-text {
@@ -553,7 +553,7 @@
         padding-bottom: 0;
         width: 230px;
         height: 70px;
-        left: -50px;
+        left: -30px;
         top: -220px;
     }
     .social-links li {
